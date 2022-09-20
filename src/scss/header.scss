@@ -1,0 +1,133 @@
+.header{
+  background: #F9F9F9;
+  height: 154px;
+  .container{
+    width: 71%;
+    margin: 0 auto;
+  }
+}
+.header__top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  padding-top: 22px;
+}
+.header__logo{
+  background: url("../img/restart-logo.svg") no-repeat;
+  background-size: 100% 100%;
+  width: 184.86px;
+  height: 67px;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+.header__list{
+  position: relative;
+  z-index: 50;
+  top: 23px;
+  list-style: none;
+  display: flex;
+  background: #FFFFFF;
+  border: 1px solid #E2E2E2;
+  border-radius: 5px;
+  a{
+    color: #333333;
+    text-decoration: none;
+  }
+  .item{
+    position: relative;
+    font-size: 16px;
+    width: 272px;
+    height: 78px;
+    text-align: center;
+    line-height: 78px;
+    &:not(:last-child):after{
+      content: " ";
+      position: absolute;
+      background: #E2E2E2;
+      width: 1px;
+      height: 50px;
+      right: -2px;
+      bottom: 13px;
+    }
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+.header__desc{
+  margin-top: 21px;
+  color: #666;
+  margin-right: 5px;
+}
+.mobile-header__desc{
+  display: none;
+}
+.burger{
+  display: none;
+  background: url("../img/burger.svg");
+  width: 40px;
+  height: 22px;
+}
+@media (max-width: 1200px) {
+  .header{
+    .container{
+      width: 92%;
+    }
+  }
+  .header__list{
+    display: none;
+  }
+  .header__logo{
+    order: 1;
+    margin-left: -2px;
+
+  }
+  .burger{
+    order: 3;
+
+    display: block;
+    margin-top: 12px;
+  }
+  .header__top{
+    justify-content: space-between;
+    width: 100%;
+  }
+  .header__desc{
+    order: 2;
+    margin-top: 11px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 551px) {
+  .header{
+    .container{
+      width: 100%;
+    }
+  }
+  .header__top{
+    width: 92%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .header__logo{
+    margin-left: 1px;
+
+  }
+  .burger {
+    width: 30px;
+    height: 20px;
+    background: url("../img/buger-mobile.svg");
+    margin-top: 4px;
+    margin-right: 2px;
+  }
+  .header__desc {
+    display: none
+  }
+  .mobile-header__desc{
+    margin-top: 16px;
+    margin-left: 28px;
+    display: block;
+  }
+}
