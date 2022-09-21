@@ -132,7 +132,7 @@
 }
 .info-bottom__ipad{
   display: none;
-  background: url("../img/handshake-ipad.png");
+  background: url("../img/handshake-ipad.png") no-repeat;
   width: 994.58px;
   height: 180px;
   margin:0 auto;
@@ -282,6 +282,25 @@
   }
   .info-bottom__ipad{
     display: block;
+    width: 706.58px;
+  }
+  .info-bottom__block{
+    padding: 0;
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    height: inherit;
+    margin-top: 40px;
+    width: 708px;
+  }
+  .info-bottom__btn{
+    margin-left: 44px;
+    margin-top: 26px;
+  }
+  .info-bottom__desc{
+    width: 681px;
+    margin: 26px 0 0 15px;
   }
 }
 
