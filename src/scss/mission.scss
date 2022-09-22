@@ -1,3 +1,4 @@
+
 .mission__title{
   width: 1360px;
   height: 78px;
@@ -54,7 +55,7 @@
 
 }
 .about--video{
-  background: #E5E5E5;
+  background: #f9f9f9;
   height: 264px;
   padding-top: 44px;
   margin-top: 62px;
@@ -65,7 +66,7 @@
   }
 }
 .about--info{
-  background: #E5E5E5;
+  background: #f9f9f9;
   padding-top: 44px;
 
 }
@@ -76,6 +77,12 @@
   border: 1px solid #E6E6E6;
   border-radius: 5px;
   margin: 0 auto;
+  .line{
+    border-bottom: 1px solid #E2E2E2;
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 32px;
+  }
 
 }
 .doublelist__title{
@@ -94,7 +101,7 @@
 .doublelist__wrapper{
   display: flex;
   justify-content: space-between;
-  margin: 69px 43px 0 47px;
+  margin: 36px 43px 0 47px;
   color: #333333;
   ul{
     margin-top: 22px;
@@ -175,6 +182,12 @@
     width: 100%;
 
   }
+  .doublelist{
+    .line{
+      width: 90%;
+
+    }
+  }
   .mission__list,.checked-boxes{
     padding-left: 20px;
   }
@@ -199,8 +212,9 @@
     div{
       display: block;
       width: 708px;
-      margin: -1px auto;
-      line-height: 24px;
+      margin: 0 auto;
+      margin-top: 32px;
+      line-height: 22px;
     }
   }
   .mission__img{
@@ -208,7 +222,7 @@
     width: 708px;
     height: 193px;
     margin: 0 auto;
-    margin-top: 31px;
+    margin-top: 34px;
   }
   .mission__list{
     padding-left: 32px;
@@ -251,7 +265,7 @@
     width: 96%;
   }
   .doublelist__wrapper{
-    margin: 46px -18px 0 13px;
+    margin: 26px -18px 0 13px;
     padding-bottom: 30px;
     .right {
       width: 553px;
@@ -280,6 +294,10 @@
       margin-right: 14px;
     }
   }
+  .info-bottom{
+    padding-bottom: 38px;
+    margin-bottom: 73px;
+  }
   .info-bottom__ipad{
     display: block;
     width: 706.58px;
@@ -295,13 +313,151 @@
     width: 708px;
   }
   .info-bottom__btn{
-    margin-left: 44px;
+    margin-left: 14px;
     margin-top: 26px;
+    margin-bottom: 34px;
   }
   .info-bottom__desc{
     width: 681px;
     margin: 26px 0 0 15px;
   }
-}
+  .doublelist{
+    .line{
+      width: 95%;
+      margin-top: 19px;
 
+    }
+  }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 525px) {
+  .mission__title{
+    height: 197px;
+    padding: 18px;
+    padding-top: 50px;
+    width: 265px;
+    margin-top: -41px;
+    text-align: center;
+  }
+  .mission__desc{
+    div{
+      width: 261px;
+      margin: 0 auto;
+      margin-top: -4px;
+
+    }
+
+  }
+  .mission__img{
+    background: url("../img/mission-back-m.png");
+    width: 280px;
+    height: 76.28px;
+    margin-top: 29px;
+
+  }
+  .mission__list {
+    padding-left: 16px;
+    padding-bottom: 19px;
+
+
+    .list__title{
+      margin-top: 22px;
+      margin-left: -4px;
+      width: 232px;
+      line-height: 24px;
+    }
+    ul{
+      margin-top: 22px;
+      margin-left: -4px;
+      width: 268px;
+    }
+  }
+  .about--body{
+    background: #f9f9f9;
+  }
+  .mission{
+    background: #FFFFFF;
+    width: 289px;
+    margin: 0 auto;
+  }
+  .about--video{
+   .video__block{
+     width: 100%;
+   }
+    margin-top: -13px;
+    height: 263px;
+  }
+  .doublelist{
+    width: 290px;
+    margin-top: -13px;
+    .line{
+      width: 92%;
+      margin-top: 32px;
+    }
+  }
+  .doublelist__title{
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 31px;
+    margin-left: 12px;
+  }
+  .doublelist__desc{
+    font-size: 15px;
+    line-height: 22px;
+    width: 252px;
+    margin-left: 11px;
+    margin-top: 17px;
+  }
+  .doublelist__wrapper{
+    flex-wrap: wrap;
+    padding-bottom: 22px;
+    ul{
+      margin-top: 1px;
+    }
+    .left{
+      width: 273px;
+      margin-top: 8px;
+      margin-left: -1px;
+    }
+    .right{
+      margin-top: 24px;
+
+    }
+    .list-one__title{
+      line-height: 24px;
+      margin-top: -2px;
+    }
+    .list-two{
+      margin-top: 9px;
+      width: 265px;
+    }
+  }
+  .checked-boxes{
+    margin-left: 15px;
+    grid-template-columns: 1fr;
+    width: 290px;
+    grid-template-rows: 1fr;
+    grid-row-gap: 38px;
+    height: inherit;
+    img{
+      margin-left: -2px;
+    }
+  }
+  .checked-boxes__item{
+    display: block;
+  }
+  .mob1{
+    margin-top: 10px;
+  }
+  .mob2{
+    margin-top: -2px;
+
+  }
+  .mob3{
+    margin-top: -1px;
+
+  }
+}
 
