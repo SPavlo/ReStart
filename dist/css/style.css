@@ -538,6 +538,10 @@
   color: #333;
 }
 
+.net-main a {
+  color: #337ab7;
+}
+
 .net-main .net-main__wrapper {
   max-width: 1361px;
   margin: 0 auto;
@@ -633,6 +637,7 @@
 }
 
 .location {
+  padding-bottom: 113px;
   background-color: #f8f9fa;
 }
 
@@ -879,6 +884,225 @@
   color: #fff;
 }
 
+.location .net-form .net-form-block {
+  margin-top: 36px;
+  height: 466px;
+  width: 393px;
+  background: #fff;
+  -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 35px 22px 0 22px;
+}
+
+.location .net-form .net-form-block h4 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333;
+}
+
+.location .net-form .net-form-block .form-line {
+  margin-top: 26px;
+  width: 100%;
+  height: 1px;
+  background-color: #ebebeb;
+  margin-bottom: 24px;
+}
+
+.location .net-form .net-form-block p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+}
+
+.location .net-form .net-form-block .margin-top {
+  margin-top: 20px;
+}
+
+.location .net-form .net-form-block input,
+.location .net-form .net-form-block select {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 3px;
+  height: 49px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  padding-left: 12px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.location .net-form .net-form-block select {
+  margin-top: 2px;
+  width: 100%;
+  height: 50px;
+  padding-left: 11px;
+  color: #828282;
+  font-size: 14px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-image: url("../img/network-form-arrow-select.png");
+  background-repeat: no-repeat;
+  background-position: 313px;
+}
+
+.location .net-form .net-form-block a {
+  margin-top: 17px;
+  display: block;
+  width: 100%;
+  height: 55px;
+  background: #27ae60;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding-top: 17px;
+  text-align: center;
+}
+
+.location .net__lists {
+  margin-top: 89px;
+}
+
+.location .net__lists ul {
+  list-style: none;
+}
+
+.location .net__lists ul li {
+  color: #777;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.location .net__lists h3 {
+  margin-bottom: 18px;
+  font-weight: 400;
+}
+
+.location .net__lists .container {
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  padding: 40px 36px 53px 40px;
+}
+
+.location .net__lists .container h4 {
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.location .net__lists .container .first__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.location .net__lists .container .first__list ul:nth-child(2) {
+  margin-left: 76px;
+}
+
+.location .net__lists .container .first__list ul:nth-child(3) {
+  margin-left: 50px;
+}
+
+.location .net__lists .container .first__list ul:nth-child(4) {
+  margin-left: 64px;
+}
+
+.location .net__lists .container p {
+  margin-top: 0px;
+}
+
+.location .net__lists .container p a {
+  margin-left: 2px;
+  display: inline-block;
+  text-decoration: none;
+  color: #337ab7;
+  font-size: 16px;
+}
+
+.location .net__lists .container .network__lists-line {
+  margin-top: 50px;
+  margin-bottom: 42px;
+  width: 100%;
+  background-color: #e2e2e2;
+  height: 1px;
+}
+
+.location .net__lists .container .second__list {
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.location .net__lists .container .second__list ul:nth-child(2) {
+  margin-left: 145px;
+}
+
+.location .net__lists .container .second__list ul:nth-child(3) {
+  margin-left: 120px;
+}
+
+.location .net__lists .container .second__list ul:nth-child(4) {
+  margin-left: 45px;
+}
+
+.location .net__lists .container .second__p {
+  margin-top: 23px;
+}
+
+.location .net__lists .container .second {
+  margin-top: 52px;
+}
+
+.location .net__lists .container .first__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.location .net__lists .container .third-list {
+  margin-left: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.location .net__lists .container .third-list .margin__left-div {
+  margin-left: 297px;
+}
+
+.location .net__lists .container .third-list ul {
+  margin-top: 7px;
+}
+
+.location .net__lists .container .third-list .third_p_ul_mar {
+  margin-top: 15px;
+}
+
+.location .net__lists .container .second__div,
+.location .net__lists .container .third__p,
+.location .net__lists .container .third__p-bot,
+.location .net__lists .container .third {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -929,6 +1153,21 @@ body {
 @media (max-width: 1500px) {
   .main {
     height: 600px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .location .location-wrapper h3,
+  .network__main .network__locations h3 {
+    text-align: center;
+  }
+
+  .location .net-video .video__wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 29px 30px;
+    padding-top: 29px;
   }
 }
 
@@ -1117,6 +1356,76 @@ body {
 @media (max-width: 1200px) and (max-width: 770px) {
   .cards__top .logo {
     margin: -34px auto 0;
+  }
+}
+
+@media (max-width: 1040px) {
+  .net-main .title {
+    display: none;
+  }
+
+  .net-main .blocks {
+    gap: 61px 30px;
+    margin-top: 0px;
+  }
+
+  .net-main .blocks .shop-link {
+    margin: 6px auto 0;
+  }
+
+  .net-main .blocks .block-item .link-mob {
+    margin-top: 12px;
+    margin-left: 27px;
+  }
+
+  .net-main .blocks .block {
+    width: 339px;
+  }
+
+  .net-main .blocks .block .br-mob {
+    display: none;
+  }
+
+  .net-main .blocks .block h4 {
+    margin-top: 9px;
+  }
+
+  .net-main .blocks .block .line {
+    margin: 14px auto 25px;
+  }
+
+  .net-main .blocks .block .block__desc {
+    margin: 0px auto 25px;
+  }
+
+  .net-main .blocks .block .desc-mob {
+    margin-top: 10px;
+  }
+
+  .net-main .blocks .block .block__img-1 {
+    background: url("../img/net-block-1-I.png");
+  }
+
+  .net-main .blocks .block .block__img-2 {
+    background: url("../img/net-block-2-I.png");
+  }
+
+  .net-main .blocks .block .block__img-3 {
+    background: url("../img/net-block-3-I.png");
+  }
+
+  .net-main .blocks .block .block__img-4 {
+    background: url("../img/net-block-4-I.png");
+  }
+
+  .net-main .blocks .block .block__img-1,
+  .net-main .blocks .block .block__img-2,
+  .net-main .blocks .block .block__img-3,
+  .net-main .blocks .block .block__img-4 {
+    width: 100%;
+    height: 204.57px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
   }
 }
 
