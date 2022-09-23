@@ -255,7 +255,7 @@
 .cards__blocks .block .block__img {
   width: 100%;
   height: 200px;
-  background: url("../img/cards-back2.png") no-repeat;
+  background: url("../img/cards-back1.png") no-repeat;
 }
 
 .cards__blocks .block .block__img2 {
@@ -1351,6 +1351,95 @@ body {
     margin-top: 17px;
     margin-right: 0px;
   }
+
+  .location .net-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-right: 0;
+    height: 550px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 49px auto 0;
+    max-width: 708px;
+    border-radius: 5px;
+    background-image: url("../img/ipad-form-back.png");
+  }
+
+  .location .net-form h2 {
+    margin-top: 41px;
+    margin-left: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: center;
+    max-width: 450px;
+  }
+
+  .location .net-form .net-form-block {
+    height: 380px;
+    width: 264px;
+    margin-top: 31px;
+    padding: 14px 15px 18px;
+  }
+
+  .location .net-form .form-br {
+    display: none;
+  }
+
+  .location .net-form .net-form-block h4 {
+    font-size: 16px;
+    font-weight: 400;
+    width: 150px;
+    margin: -1px 41px;
+    line-height: 19px;
+    letter-spacing: 0;
+  }
+
+  .location .net-form .net-form-block .form-line {
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+
+  .location .net-form .net-form-block p {
+    margin-top: -2px;
+    margin-left: -1px;
+  }
+
+  .location .net-form .net-form-block .margin-top {
+    margin-top: 19px;
+  }
+
+  .location .net-form .net-form-block input,
+  .location .net-form .net-form-block select {
+    height: 45px;
+    margin-top: 2px;
+    margin-bottom: -11px;
+    padding-left: 6px;
+  }
+
+  .location .net-form .net-form-block select {
+    background-position: 209px 16px;
+    background-size: 14px;
+    height: 40px;
+    padding-top: 1px;
+  }
+
+  .location .net-form .net-form-block a {
+    height: 60px;
+    padding-top: 8px;
+    padding-left: 22px;
+    padding-right: 25px;
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 21px;
+  }
 }
 
 @media (max-width: 1200px) and (max-width: 770px) {
@@ -1360,12 +1449,13 @@ body {
 }
 
 @media (max-width: 1040px) {
-  .net-main .title {
+  .net-main .title,
+  .net__lists h3 {
     display: none;
   }
 
   .net-main .blocks {
-    gap: 61px 30px;
+    gap: 63px 30px;
     margin-top: 0px;
   }
 
@@ -1374,7 +1464,7 @@ body {
   }
 
   .net-main .blocks .block-item .link-mob {
-    margin-top: 12px;
+    margin-top: 10px;
     margin-left: 27px;
   }
 
@@ -1399,7 +1489,8 @@ body {
   }
 
   .net-main .blocks .block .desc-mob {
-    margin-top: 10px;
+    margin-top: 36px;
+    margin-bottom: 37px;
   }
 
   .net-main .blocks .block .block__img-1 {
@@ -1426,6 +1517,156 @@ body {
     height: 204.57px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+  }
+
+  .location .location-wrapper {
+    padding-top: 61px;
+  }
+
+  .location .location-wrapper h3 {
+    text-align: left;
+    margin-top: 1px;
+    margin-left: 30px;
+  }
+
+  .location .location-drive {
+    gap: 59px;
+  }
+
+  .location .location-drive .left,
+  .location .location-drive .right {
+    width: 708px;
+  }
+
+  .location .location-drive .left .block .block__item .btn,
+  .location .location-drive .right .block .block__item .btn {
+    width: 158px;
+  }
+
+  .location .location-drive .left .block .block__item h5,
+  .location .location-drive .right .block .block__item h5 {
+    margin-left: 0;
+  }
+
+  .location .location-drive .left .title:before,
+  .location .location-drive .right .title:before {
+    top: -8px;
+    left: -40px;
+  }
+
+  .location .net-video {
+    margin-top: 58px;
+  }
+
+  .location .net-video h3 {
+    margin-left: 31px;
+  }
+
+  .location .net-video .video__wrapper {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin: -1px 30px;
+    gap: 26px 30px;
+  }
+
+  .location .net-video .video__wrapper .video__item p {
+    text-align: center;
+    padding-top: 3px;
+    padding-left: 3px;
+  }
+
+  .location .net-video .video__wrapper .video__item .video__content {
+    width: 339px;
+    height: 216px;
+    margin-top: 8px;
+  }
+
+  .location .net-video .video__wrapper .video__item .video__content:before {
+    width: 54px;
+    height: 37px;
+    background-size: cover;
+    top: 89px;
+  }
+
+  .location .net-video .video__wrapper .video__item .video__img-1,
+  .location .net-video .video__wrapper .video__item .video__img-2,
+  .location .net-video .video__wrapper .video__item .video__img-3,
+  .location .net-video .video__wrapper .video__item .video__img-4,
+  .location .net-video .video__wrapper .video__item .video__img-5 {
+    background-size: 100% 100%;
+    width: 171px;
+    height: 174px;
+  }
+
+  .location .net__lists .container {
+    padding-left: 14px;
+    padding-right: 14px;
+    max-width: 708px;
+    border: 1px solid #e6e6e6;
+    padding-top: 26px;
+    margin: -39px auto 0;
+  }
+
+  .location .net__lists .container .first__list {
+    margin-top: -5px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 33px 34px;
+  }
+
+  .location .net__lists ul {
+    width: 320px;
+    margin-left: 0 !important;
+  }
+
+  .location .net__lists .container p {
+    margin-top: 23px;
+  }
+
+  .location .net__lists .container .network__lists-line {
+    margin-top: 43px;
+    margin-bottom: 37px;
+  }
+
+  .location .net__lists .container .second__list {
+    margin-top: -5px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 38px 55px;
+  }
+
+  .location .net__lists .container .second__list ul {
+    margin-left: 0 !important;
+    width: 300px;
+  }
+
+  .location .net__lists .container .second__p {
+    margin-top: 38px;
+  }
+
+  .location .net__lists .container .second {
+    margin-bottom: 34px;
+  }
+
+  .location .net__lists .container .third-list ul {
+    margin-top: -6px;
+  }
+
+  .location .net__lists .container .second__div {
+    display: block;
+    margin-top: 28px;
+    margin-left: 34px;
+  }
+
+  .location .net__lists .container .third-list .margin__left-div {
+    display: none;
+  }
+
+  .location .net__lists .container .last__p-mobile {
+    margin-top: 39px;
   }
 }
 
@@ -1811,6 +2052,250 @@ body {
     margin-top: 16px;
     margin-left: 28px;
     display: block;
+  }
+}
+
+@media (max-width: 550px) {
+  .net-main .blocks {
+    gap: 26px 30px;
+    margin-top: 17px;
+    margin-left: 4px;
+    margin-bottom: 28px;
+  }
+
+  .net-main .blocks .shop-link {
+    margin: 7px auto 0;
+    margin-left: -4px;
+  }
+
+  .net-main .blocks .block-item .link-mob {
+    width: 229px;
+    margin-top: 6px;
+    margin-left: 26px;
+  }
+
+  .net-main .blocks .block {
+    width: 290px;
+  }
+
+  .net-main .blocks .block h4 {
+    margin-top: 9px;
+  }
+
+  .net-main .blocks .block .line {
+    width: 235px;
+    margin: 8px auto 25px;
+  }
+
+  .net-main .blocks .block .block__desc {
+    margin: -7px auto 19px;
+  }
+
+  .net-main .blocks .block .desc-mob {
+    width: 140px;
+    margin-top: -8px;
+  }
+
+  .net-main .blocks .block .block__img-1 {
+    background: url("../img/net-block-1-M.png");
+  }
+
+  .net-main .blocks .block .block__img-2 {
+    background: url("../img/net-block-2-M.png");
+  }
+
+  .net-main .blocks .block .block__img-3 {
+    background: url("../img/net-block-3-M.png");
+  }
+
+  .net-main .blocks .block .block__img-4 {
+    background: url("../img/net-block-4-M.png");
+  }
+
+  .net-main .blocks .block .block__img-1,
+  .net-main .blocks .block .block__img-2,
+  .net-main .blocks .block .block__img-3,
+  .net-main .blocks .block .block__img-4 {
+    width: 290px;
+    height: 175px;
+  }
+
+  .net-main .blocks .block_size1 {
+    margin-top: -2px;
+    margin-left: -5px;
+  }
+
+  .net-main .blocks .block_size2 {
+    margin-left: -5px;
+    margin-top: -2px;
+  }
+
+  .location .location-wrapper {
+    padding-top: 42px;
+  }
+
+  .location .location-wrapper h3 {
+    margin: 0px;
+    text-align: center;
+    padding-top: 1px;
+  }
+
+  .location .location-drive .left .title,
+  .location .location-drive .right .title {
+    margin-top: 14px;
+    margin-left: 53px;
+  }
+
+  .location .location-drive .left .title:before,
+  .location .location-drive .right .title:before {
+    top: -6px;
+    left: -38px;
+  }
+
+  .location .location-drive .left .block .block__item,
+  .location .location-drive .right .block .block__item {
+    padding-top: 18px;
+    padding-bottom: 21px;
+    padding-left: 12px;
+    padding-right: 10px;
+    height: auto;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .location .location-drive .left .block,
+  .location .location-drive .right .block {
+    width: 290px;
+    margin: 0 auto;
+    margin-top: 13px;
+  }
+
+  .location .location-drive .left .block .block__item .btn,
+  .location .location-drive .right .block .block__item .btn {
+    width: 145px;
+    margin-top: 19px;
+  }
+
+  .location .location-drive .left .block .mod h5 span {
+    margin-left: 0;
+  }
+
+  .location .location-drive .left .block .mod .content,
+  .location .location-drive .right .block .mod .content {
+    padding-top: 0;
+  }
+
+  .location .location-drive .left .block .mod .btn {
+    margin-top: 22px;
+    margin-bottom: -2px;
+  }
+
+  .location .location-drive .right {
+    margin-top: -23px;
+  }
+
+  .location .location-drive .right .block .mod .content {
+    padding-top: 21px;
+    margin-bottom: 2px;
+  }
+
+  .location .net-video {
+    margin-top: 203px;
+  }
+
+  .location .net-video h3 {
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 210px;
+    text-align: center;
+  }
+
+  .location .net-video .video__wrapper {
+    margin: -17px 14px;
+    gap: 19px 30px;
+  }
+
+  .location .net-video .video__wrapper .video__item .video__img-1,
+  .location .net-video .video__wrapper .video__item .video__img-2,
+  .location .net-video .video__wrapper .video__item .video__img-3,
+  .location .net-video .video__wrapper .video__item .video__img-4,
+  .location .net-video .video__wrapper .video__item .video__img-5 {
+    background-size: 100% 100%;
+    width: 146px;
+    height: 149px;
+    margin-top: 4px;
+  }
+
+  .location .net-video .video__wrapper .video__item .video__content {
+    width: 290px;
+    margin-top: 2px;
+    height: 185px;
+  }
+
+  .location .net-video .video__wrapper .video__item .video__content:before {
+    width: 46px;
+    height: 32px;
+    background-size: cover;
+    top: 78px;
+  }
+
+  .location .net-form {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 57px;
+    width: auto;
+    height: 550px;
+    background: url("../img/form-back-mob.png");
+  }
+
+  .location .net-form h2 {
+    margin-top: 30px;
+    width: 247px;
+  }
+
+  .location .net-form .net-form-block {
+    margin-top: 24px;
+  }
+
+  .location .net__lists .container {
+    padding-left: 12px;
+    max-width: 290px;
+    padding-top: 23px;
+    margin: -39px auto 0;
+    margin-top: -61px;
+  }
+
+  .location .net__lists .container .first__list {
+    gap: 12px 34px;
+  }
+
+  .location .net__lists .container .first__list ul:nth-child(3) {
+    margin-top: 2px;
+  }
+
+  .location .net__lists .container .first__list ul:nth-child(2) {
+    margin-top: -1px;
+  }
+
+  .location .net__lists .container p {
+    margin-top: 20px;
+    line-height: 22px;
+  }
+
+  .location .net__lists .container p a {
+    display: inline;
+  }
+
+  .location .net__lists .container .network__lists-line {
+    margin-top: 30px;
+    margin-bottom: 31px;
+  }
+
+  .location .net__lists .container .second__list {
+    gap: 14px 55px;
   }
 }
 
