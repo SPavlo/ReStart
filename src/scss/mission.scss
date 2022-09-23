@@ -450,14 +450,57 @@
   }
   .mob1{
     margin-top: 10px;
+    img{
+      margin-top: -5px;
+      margin-left: -2px;
+    }
+    p{
+      margin-top: 4px;
+    }
   }
   .mob2{
     margin-top: -2px;
-
+    img{
+      margin-left: -1px;
+      margin-top: -3px;
+    }
+    p{
+      margin-top: 4px;
+    }
   }
   .mob3{
     margin-top: -1px;
+    img{
+      margin-left: -1px;
+      margin-top: -8px;
+    }
+    p{
+      margin-top: 8px;
 
+    }
+  }
+  .info-bottom__ipad{
+    background: url("../img/handshake-M.png") no-repeat;
+    height: 76px;
+    margin-top: -1px;
+
+  }
+  .info-bottom__block{
+    margin-top: 43px;
+    width: 290px;
+  }
+  .info-bottom__desc{
+    width: 265px;
+    margin: 16px 0px 0 12px;
+  }
+  .info-bottom__btn{
+    margin-left: 29px;
+    margin-top: 27px;
+    margin-bottom: 35px;
+  }
+  .info-bottom{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 }
 

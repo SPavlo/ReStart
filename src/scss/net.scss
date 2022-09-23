@@ -1,0 +1,276 @@
+
+.net-main{
+  .net-main__wrapper{
+    max-width: 1361px;
+    margin: 0 auto;
+  }
+  .title{
+    font-size: 20px;
+    line-height: 22px;
+    color: #333;
+    text-align: center;
+    margin-top: 95px;
+  }
+  .blocks{
+    display: flex;
+    gap: 11px;
+    margin-top: 37px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+    .block-item{
+    }
+    .block{
+      width: 332px;
+      background: #fff;
+      border: 1px solid #e6e6e6;
+      border-radius: 5px;
+      .block__img-1,.block__img-2,.block__img-3,.block__img-4{
+        width: 100%;
+        height: 200px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+      .block__img-1{
+        background: url("../img/net-block-1.png");
+      }
+      .block__img-2{
+        background: url("../img/net-block-2.png");
+      }
+      .block__img-3{
+        background: url("../img/net-block-3.png");
+      }
+      .block__img-4{
+        background: url("../img/net-block-4.png");
+      }
+      h4{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        color: #333;
+        margin-top: 27px;
+      }
+      .line{
+        width: 268px;
+        height: 1px;
+        margin: 17px auto 25px;
+        background-color: #e2e2e2;
+      }
+      .block__desc{
+        font-size: 16px;
+        line-height: 22px;
+        color: #666;
+        width: 260px;
+        margin: 0 auto 28px;
+        text-align: center;
+      }
+    }
+    .shop-link{
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+      color: #999;
+      width: 300px;
+      margin: 16px auto 0;
+    }
+  }
+}
+.location{
+  background-color: #f8f9fa;
+  .location-wrapper{
+    max-width: 1361px;
+    margin: 0 auto;
+    padding-top: 84px;
+    h3{
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+      color: #333;
+    }
+  }
+  .location-drive{
+    margin-top: 28px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    .left, .right{
+      width: 660px;
+      .title{
+        font-size: 18px;
+        line-height: 26px;
+        color: #333;
+        margin-top: 7px;
+        margin-left: 39px;
+        position: relative;
+        &:before{
+          content: " ";
+          position: absolute;
+          background: url("../img/loc-icon.png");
+          width: 32px;
+          height: 32px;
+          top: -5px;
+          left: -39px
+        }
+      }
+      .block{
+        margin-top: 18px;
+        background: #fff;
+        border: 1px solid #e6e6e6;
+        border-radius: 5px;
+        .block__item{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-left: 19px;
+          padding-right: 27px;
+          height: 99px;
+          border-bottom: 1px solid #ebebeb;
+          h5{
+            margin-left: -1px;
+            font-size: 18px;
+            color: #333;
+            line-height: 25px;
+            font-weight: 400;
+            span{
+              margin-left: 17px;
+              position: relative;
+              &:before{
+                content: "";
+                position: absolute;
+                width: 2px;
+                height: 15px;
+                background: #ebebeb;
+                top: 3px;
+                left: -12px;
+              }
+            }
+          }
+          p{
+            margin-top: 2px;
+            font-size: 14px;
+            line-height: 17px;
+            color: #666;
+          }
+          .btn{
+            margin-top: 1px;
+            border: 1px solid #cecece;
+            padding-top: 4px;
+            border-radius: 100px;
+            width: 145px;
+            height: 50px;
+            background-color: #fff;
+            font-size: 16px;
+            color: #333;
+          }
+        }
+        .mod{
+          .content{
+            padding-top: 21px;
+          }
+        }
+      }
+    }
+    .right{
+      .block{
+        .mod{
+          .content{
+            padding-top: 0;
+            margin-top: -21px;
+
+          }
+        }
+      }
+    }
+  }
+  .net-video{
+    margin-top: 102px;
+    h3 {
+      font-size: 20px;
+      line-height: 26px;
+      color: #333;
+    }
+      .video__wrapper{
+        display: flex;
+        padding-top: 40px;
+        flex-wrap: wrap;
+        gap: 50px 41px;
+        .video__item{
+          p{
+            font-size: 16px;
+          }
+          .video__content{
+            padding-top: 0;
+            margin-top: 8px;
+            width: 426px;
+            height: 272px;
+            border: 1px solid #e6e6e6;
+            border-radius: 5px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            &:before{
+              content: "";
+              position: absolute;
+              top: 115px;
+              width: 68.2px;
+              height: 46.95px;
+              background: url("../img/video-paly-img.png");
+            }
+          }
+          .video__img-1{
+           background: url("../img/video-block-1.png") no-repeat;
+            width: 215px;
+            height: 219px;
+          }
+          .video__img-2{
+            background: url("../img/video-block-2.png") no-repeat;
+            width: 220px;
+            height: 210px;
+          }
+          .video__img-3{
+            background: url("../img/video-block-3.png") no-repeat;
+            width: 188px;
+            height: 209px;
+          }
+          .video__img-4{
+            background: url("../img/video-block-4.png") no-repeat;
+            width: 197px;
+            height: 211px;
+          }
+          .video__img-5{
+            background: url("../img/video-block-5.png") no-repeat;
+            width: 197px;
+            height: 211px;
+          }
+        }
+      }
+
+  }
+  .net-form{
+    margin-top: 100px;
+    width: 100%;
+    height: 540px;
+    background-image: url("../img/network-form-bg.png");
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 76px;
+    h2{
+      margin-top: 138px;
+      margin-left: 36px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 56px;
+      color: #fff;
+    }
+  }
+}

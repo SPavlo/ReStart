@@ -538,6 +538,347 @@
   color: #333;
 }
 
+.net-main .net-main__wrapper {
+  max-width: 1361px;
+  margin: 0 auto;
+}
+
+.net-main .title {
+  font-size: 20px;
+  line-height: 22px;
+  color: #333;
+  text-align: center;
+  margin-top: 95px;
+}
+
+.net-main .blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 11px;
+  margin-top: 37px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.net-main .blocks .block {
+  width: 332px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
+
+.net-main .blocks .block .block__img-1,
+.net-main .blocks .block .block__img-2,
+.net-main .blocks .block .block__img-3,
+.net-main .blocks .block .block__img-4 {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.net-main .blocks .block .block__img-1 {
+  background: url("../img/net-block-1.png");
+}
+
+.net-main .blocks .block .block__img-2 {
+  background: url("../img/net-block-2.png");
+}
+
+.net-main .blocks .block .block__img-3 {
+  background: url("../img/net-block-3.png");
+}
+
+.net-main .blocks .block .block__img-4 {
+  background: url("../img/net-block-4.png");
+}
+
+.net-main .blocks .block h4 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #333;
+  margin-top: 27px;
+}
+
+.net-main .blocks .block .line {
+  width: 268px;
+  height: 1px;
+  margin: 17px auto 25px;
+  background-color: #e2e2e2;
+}
+
+.net-main .blocks .block .block__desc {
+  font-size: 16px;
+  line-height: 22px;
+  color: #666;
+  width: 260px;
+  margin: 0 auto 28px;
+  text-align: center;
+}
+
+.net-main .blocks .shop-link {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #999;
+  width: 300px;
+  margin: 16px auto 0;
+}
+
+.location {
+  background-color: #f8f9fa;
+}
+
+.location .location-wrapper {
+  max-width: 1361px;
+  margin: 0 auto;
+  padding-top: 84px;
+}
+
+.location .location-wrapper h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333;
+}
+
+.location .location-drive {
+  margin-top: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.location .location-drive .left,
+.location .location-drive .right {
+  width: 660px;
+}
+
+.location .location-drive .left .title,
+.location .location-drive .right .title {
+  font-size: 18px;
+  line-height: 26px;
+  color: #333;
+  margin-top: 7px;
+  margin-left: 39px;
+  position: relative;
+}
+
+.location .location-drive .left .title:before,
+.location .location-drive .right .title:before {
+  content: " ";
+  position: absolute;
+  background: url("../img/loc-icon.png");
+  width: 32px;
+  height: 32px;
+  top: -5px;
+  left: -39px;
+}
+
+.location .location-drive .left .block,
+.location .location-drive .right .block {
+  margin-top: 18px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
+
+.location .location-drive .left .block .block__item,
+.location .location-drive .right .block .block__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 19px;
+  padding-right: 27px;
+  height: 99px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.location .location-drive .left .block .block__item h5,
+.location .location-drive .right .block .block__item h5 {
+  margin-left: -1px;
+  font-size: 18px;
+  color: #333;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.location .location-drive .left .block .block__item h5 span,
+.location .location-drive .right .block .block__item h5 span {
+  margin-left: 17px;
+  position: relative;
+}
+
+.location .location-drive .left .block .block__item h5 span:before,
+.location .location-drive .right .block .block__item h5 span:before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 15px;
+  background: #ebebeb;
+  top: 3px;
+  left: -12px;
+}
+
+.location .location-drive .left .block .block__item p,
+.location .location-drive .right .block .block__item p {
+  margin-top: 2px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #666;
+}
+
+.location .location-drive .left .block .block__item .btn,
+.location .location-drive .right .block .block__item .btn {
+  margin-top: 1px;
+  border: 1px solid #cecece;
+  padding-top: 4px;
+  border-radius: 100px;
+  width: 145px;
+  height: 50px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #333;
+}
+
+.location .location-drive .left .block .mod .content,
+.location .location-drive .right .block .mod .content {
+  padding-top: 21px;
+}
+
+.location .location-drive .right .block .mod .content {
+  padding-top: 0;
+  margin-top: -21px;
+}
+
+.location .net-video {
+  margin-top: 102px;
+}
+
+.location .net-video h3 {
+  font-size: 20px;
+  line-height: 26px;
+  color: #333;
+}
+
+.location .net-video .video__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 50px 41px;
+}
+
+.location .net-video .video__wrapper .video__item p {
+  font-size: 16px;
+}
+
+.location .net-video .video__wrapper .video__item .video__content {
+  padding-top: 0;
+  margin-top: 8px;
+  width: 426px;
+  height: 272px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.location .net-video .video__wrapper .video__item .video__content:before {
+  content: "";
+  position: absolute;
+  top: 115px;
+  width: 68.2px;
+  height: 46.95px;
+  background: url("../img/video-paly-img.png");
+}
+
+.location .net-video .video__wrapper .video__item .video__img-1 {
+  background: url("../img/video-block-1.png") no-repeat;
+  width: 215px;
+  height: 219px;
+}
+
+.location .net-video .video__wrapper .video__item .video__img-2 {
+  background: url("../img/video-block-2.png") no-repeat;
+  width: 220px;
+  height: 210px;
+}
+
+.location .net-video .video__wrapper .video__item .video__img-3 {
+  background: url("../img/video-block-3.png") no-repeat;
+  width: 188px;
+  height: 209px;
+}
+
+.location .net-video .video__wrapper .video__item .video__img-4 {
+  background: url("../img/video-block-4.png") no-repeat;
+  width: 197px;
+  height: 211px;
+}
+
+.location .net-video .video__wrapper .video__item .video__img-5 {
+  background: url("../img/video-block-5.png") no-repeat;
+  width: 197px;
+  height: 211px;
+}
+
+.location .net-form {
+  margin-top: 100px;
+  width: 100%;
+  height: 540px;
+  background-image: url("../img/network-form-bg.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 76px;
+}
+
+.location .net-form h2 {
+  margin-top: 138px;
+  margin-left: 36px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  color: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1300,11 +1641,65 @@ body {
     margin-top: 10px;
   }
 
+  .mob1 img {
+    margin-top: -5px;
+    margin-left: -2px;
+  }
+
+  .mob1 p {
+    margin-top: 4px;
+  }
+
   .mob2 {
     margin-top: -2px;
   }
 
+  .mob2 img {
+    margin-left: -1px;
+    margin-top: -3px;
+  }
+
+  .mob2 p {
+    margin-top: 4px;
+  }
+
   .mob3 {
     margin-top: -1px;
+  }
+
+  .mob3 img {
+    margin-left: -1px;
+    margin-top: -8px;
+  }
+
+  .mob3 p {
+    margin-top: 8px;
+  }
+
+  .info-bottom__ipad {
+    background: url("../img/handshake-M.png") no-repeat;
+    height: 76px;
+    margin-top: -1px;
+  }
+
+  .info-bottom__block {
+    margin-top: 43px;
+    width: 290px;
+  }
+
+  .info-bottom__desc {
+    width: 265px;
+    margin: 16px 0px 0 12px;
+  }
+
+  .info-bottom__btn {
+    margin-left: 29px;
+    margin-top: 27px;
+    margin-bottom: 35px;
+  }
+
+  .info-bottom {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 }
