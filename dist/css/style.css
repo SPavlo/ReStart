@@ -1103,6 +1103,99 @@
   display: none;
 }
 
+.solution {
+  width: 1359px;
+  margin: 114px auto 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.solution h2 {
+  font-size: 20px;
+  line-height: 26px;
+  color: #333;
+  font-weight: 400;
+}
+
+.solution .first-l {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 42px;
+  padding-left: 16px;
+  padding-right: 12px;
+}
+
+.solution .first-l .first-l__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 235px;
+}
+
+.solution .first-l .first-l__item p {
+  margin-top: 14px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  color: #666;
+}
+
+.solution .first-l .first-l__item .pic {
+  width: 70px;
+  height: 70px;
+}
+
+.solution .first-l .first-l__item .img-1 {
+  background: url("../img/first-l-1.png");
+}
+
+.solution .first-l .first-l__item .img-2 {
+  background: url("../img/first-l-2.png");
+}
+
+.solution .first-l .first-l__item .img-3 {
+  background: url("../img/first-l-3.png");
+}
+
+.solution .first-l .first-l__item .img-4 {
+  background: url("../img/first-l-4.png");
+}
+
+.solution .first-l .first-l__item .img-5 {
+  background: url("../img/first-l-5.png");
+}
+
+.solution .first-back {
+  background: url("../img/sol-back-1.webp") no-repeat;
+  width: 1359px;
+  height: 603px;
+}
+
+.solution .second-l {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -1,0 +1,60 @@
+.solution{
+  width: 1359px;
+  margin: 114px auto 42px;
+  display: flex;
+  flex-direction: column;
+  h2{
+    font-size: 20px;
+    line-height: 26px;
+    color: #333;
+    font-weight: 400;
+  }
+  .first-l{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+    padding-left: 16px;
+    padding-right: 12px;
+    .first-l__item{
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      width: 235px;
+      p{
+        margin-top: 14px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 22px;
+        color: #666;
+      }
+      .pic{
+        width: 70px;
+        height: 70px;
+      }
+      .img-1{
+        background: url("../img/first-l-1.png");
+      }
+      .img-2{
+        background: url("../img/first-l-2.png");
+      }
+      .img-3{
+        background: url("../img/first-l-3.png");
+      }
+      .img-4{
+        background: url("../img/first-l-4.png");
+      }
+      .img-5{
+        background: url("../img/first-l-5.png");
+      }
+    }
+  }
+  .first-back{
+    background: url("../img/sol-back-1.webp") no-repeat;
+    width: 1359px;
+    height: 603px;
+  }
+  .second-l{
+    display: flex;
+    justify-content: flex-start;
+  }
+}
