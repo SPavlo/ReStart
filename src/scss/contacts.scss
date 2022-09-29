@@ -1,0 +1,74 @@
+.contacts{
+  a{
+    display: block;
+    text-decoration: none;
+  }
+  .contacts__content{
+    display: flex;
+    justify-content: space-between;
+    width: 1361px;
+    margin: 98px auto 62px;
+
+    .info{
+      h4{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 22px;
+      }
+      .address{
+        margin-top: 38px;
+        margin-left: 1px;
+        a{
+          color: #337ab7;
+          font-size: 16px;
+          line-height: 24px;
+        }
+        p{
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+    .phones{
+      margin-top: 38px;
+      margin-left: 1px;
+      a{
+        font-size: 16px;
+        line-height: 24px;
+        color: #333;
+      }
+      span{
+        color: #999;
+        margin-left: 4px;
+      }
+      .viber{
+        margin-left: 1px;
+      }
+    }
+    .mails{
+      a{
+        display: inline;
+      }
+      p{
+        font-size: 16px;
+        line-height: 25px;
+      }
+      margin-top: 37px;
+      margin-left: 1px;
+    }
+    .schedule{
+      margin-top: 37px;
+      p{
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+  .contacts__bottom{
+    height: 89px;
+    width: 100%;
+    background-color: #f8f9fa;
+  }
+
+}

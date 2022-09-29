@@ -1286,6 +1286,94 @@
   height: 516px;
 }
 
+.contacts a {
+  display: block;
+  text-decoration: none;
+}
+
+.contacts .contacts__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1361px;
+  margin: 98px auto 62px;
+}
+
+.contacts .contacts__content .info h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 22px;
+}
+
+.contacts .contacts__content .info .address {
+  margin-top: 38px;
+  margin-left: 1px;
+}
+
+.contacts .contacts__content .info .address a {
+  color: #337ab7;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contacts .contacts__content .info .address p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contacts .contacts__content .phones {
+  margin-top: 38px;
+  margin-left: 1px;
+}
+
+.contacts .contacts__content .phones a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.contacts .contacts__content .phones span {
+  color: #999;
+  margin-left: 4px;
+}
+
+.contacts .contacts__content .phones .viber {
+  margin-left: 1px;
+}
+
+.contacts .contacts__content .mails {
+  margin-top: 37px;
+  margin-left: 1px;
+}
+
+.contacts .contacts__content .mails a {
+  display: inline;
+}
+
+.contacts .contacts__content .mails p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.contacts .contacts__content .schedule {
+  margin-top: 37px;
+}
+
+.contacts .contacts__content .schedule p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.contacts .contacts__bottom {
+  height: 89px;
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
 * {
   margin: 0;
   padding: 0;
