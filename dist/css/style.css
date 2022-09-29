@@ -1115,6 +1115,10 @@
           flex-direction: column;
 }
 
+.solution .mob-break {
+  display: none;
+}
+
 .solution p {
   margin-top: 16px;
   text-align: center;
@@ -2180,6 +2184,16 @@ body {
 }
 
 @media (max-width: 739px) {
+  .solution .first-l .first-l__item:nth-child(1),
+  .solution .first-l .first-l__item:nth-child(2),
+  .solution .first-l .first-l__item:nth-child(3),
+  .solution .first-l .first-l__item:nth-child(4),
+  .solution .first-l .first-l__item:nth-child(5) {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 235px;
+  }
+
   .solution .second-l .second-l__item:nth-child(1),
   .solution .second-l .second-l__item:nth-child(2),
   .solution .second-l .second-l__item:nth-child(3),
@@ -2188,6 +2202,7 @@ body {
   .solution .second-l .second-l__item:nth-child(6) {
     margin-left: 10px;
     margin-top: 10px;
+    width: 235px;
   }
 }
 
@@ -2596,6 +2611,176 @@ body {
 
   .location .net__lists .container .second__list {
     gap: 14px 55px;
+  }
+
+  .solution h2 {
+    margin-left: 1px;
+    margin-top: 11px;
+    text-align: center;
+  }
+
+  .solution .mob-break {
+    display: block;
+  }
+
+  .solution .second-back,
+  .solution .first-back {
+    display: none;
+  }
+
+  .solution .second-back-m,
+  .solution .first-back-m {
+    display: block;
+    background: url("../img/sol-back-1.webp") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    margin-top: 66px;
+    height: 112px;
+  }
+
+  .solution .second-back-m {
+    background: url("../img/sol-back-2.webp") no-repeat;
+    background-size: 100%;
+    margin-top: 11px;
+    margin-left: 1px;
+  }
+
+  .solution .first-l {
+    padding-left: 33px;
+    margin-top: -5px;
+  }
+
+  .solution .first-l .first-l__item:nth-child(1) p {
+    margin-top: 11px;
+  }
+
+  .solution .first-l .first-l__item:nth-child(2) {
+    margin-top: -3px;
+  }
+
+  .solution .first-l .first-l__item:nth-child(2) p {
+    margin-top: 11px;
+  }
+
+  .solution .first-l .first-l__item:nth-child(3) {
+    margin-left: -3px;
+    margin-top: -3px;
+    width: 260px;
+  }
+
+  .solution .first-l .first-l__item:nth-child(3) br {
+    display: none;
+  }
+
+  .solution .first-l .first-l__item:nth-child(3) p {
+    margin-top: 11px;
+    margin-left: -1px;
+  }
+
+  .solution .first-l .first-l__item:nth-child(4) {
+    margin-top: -3px;
+  }
+
+  .solution .first-l .first-l__item:nth-child(4) p {
+    margin-top: 11px;
+    margin-left: -1px;
+  }
+
+  .solution .first-l .first-l__item:nth-child(5) {
+    margin-top: -3px;
+  }
+
+  .solution .first-l .first-l__item:nth-child(5) p {
+    margin-top: 11px;
+    margin-left: -1px;
+  }
+
+  .solution .second-title {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .solution .second-l {
+    margin-top: -9px;
+    margin-left: 32px;
+    margin-bottom: 51px;
+  }
+
+  .solution .second-l .second-l__item:nth-child(1) p {
+    margin-top: 11px;
+    margin-left: 1px;
+    width: 286px;
+  }
+
+  .solution .second-l .second-l__item:nth-child(2) {
+    margin-top: 30px;
+  }
+
+  .solution .second-l .second-l__item:nth-child(2) br {
+    display: none;
+  }
+
+  .solution .second-l .second-l__item:nth-child(2) p {
+    margin-top: 11px;
+    width: 271px;
+    margin-left: 1px;
+  }
+
+  .solution .second-l .second-l__item:nth-child(3) {
+    margin-top: 30px;
+  }
+
+  .solution .second-l .second-l__item:nth-child(3) br {
+    display: none;
+  }
+
+  .solution .second-l .second-l__item:nth-child(3) p {
+    margin-top: 11px;
+    width: 282px;
+    margin-left: 1px;
+  }
+
+  .solution .second-l .second-l__item:nth-child(4) {
+    margin-top: 30px;
+  }
+
+  .solution .second-l .second-l__item:nth-child(4) br {
+    display: none;
+  }
+
+  .solution .second-l .second-l__item:nth-child(4) p {
+    margin-top: 11px;
+    width: 288px;
+    margin-left: 1px;
+  }
+
+  .solution .second-l .second-l__item:nth-child(5) {
+    margin-top: 30px;
+  }
+
+  .solution .second-l .second-l__item:nth-child(5) br {
+    display: none;
+  }
+
+  .solution .second-l .second-l__item:nth-child(5) p {
+    margin-top: 11px;
+    width: 287px;
+    margin-left: 1px;
+  }
+
+  .solution .second-l .second-l__item:nth-child(6) {
+    margin-top: 30px;
+  }
+
+  .solution .second-l .second-l__item:nth-child(6) br {
+    display: none;
+  }
+
+  .solution .second-l .second-l__item:nth-child(6) p {
+    margin-top: 11px;
+    width: 282px;
+    margin-left: 1px;
   }
 }
 
