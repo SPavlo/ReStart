@@ -72,3 +72,131 @@
   }
 
 }
+@media (max-width: 1400px){
+  .contacts{
+    .contacts__content{
+      width: 90%;
+    }
+    .contact-map{
+      width: 700px;
+    }
+    iframe{
+      width: 700px;
+
+    }
+  }
+}
+@media (max-width: 1000px){
+  .contacts{
+    .contacts__content{
+      width: 100%;
+      flex-direction: column;
+      margin-top: 3px;
+      .info{
+        .address{
+          margin-top: 28px;
+        }
+      }
+      .phones{
+        margin-top: 76px;
+        margin-left: 110px;
+      }
+      .schedule{
+        margin-top: 48px;
+        margin-left: 204px;
+      }
+      .mails{
+        margin-top: 48px;
+      }
+    }
+    .contact-side{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 30px;
+    }
+    .contact-map{
+      width: 100%;
+      margin-top: 47px;
+      margin-bottom: 8px;
+
+    }
+    iframe{
+      width: 100%;
+    }
+    .contacts__bottom{
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 701px) {
+  .contacts{
+    .contacts__content{
+      .contact-side{
+        gap: 30px;
+      }
+      .info{
+        .address{
+          width: 300px;
+          margin-top: 0px;
+        }
+      }
+      .phones{
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 0px;
+      }
+      .schedule{
+        width: 300px;
+        margin-top: 0px;
+        margin-left: 0px;
+      }
+      .mails{
+        width: 300px;
+        margin-top: 0px;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .contacts{
+    .contacts__content{
+      margin-bottom: 10px;
+      .contact-side{
+        margin-left: 15px;
+        gap: 0;
+      }
+      .info{
+        .address{
+          margin-top: 39px;
+        }
+      }
+      .phones{
+        margin-top: 36px;
+        margin-left: 1px;
+        .reg{
+          display: block;
+          margin-left: 0px;
+        }
+        .viber{
+          margin-left: 0;
+        }
+      }
+      .mails{
+        margin-top: 33px;
+      }
+      .schedule{
+        margin-top: 28px;
+      }
+      .contact-map{
+        margin-top: 37px;
+      }
+    }
+    .contacts__bottom{
+      display: block;
+      height: 27px;
+      margin-bottom: -27px;
+    }
+  }
+}

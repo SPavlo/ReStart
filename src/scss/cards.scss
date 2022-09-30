@@ -3,6 +3,7 @@
   background: #f9f9f9;
   height: 810px;
 }
+
 .cards__top{
   text-align: center;
 
@@ -18,6 +19,9 @@
     line-height: 26px;
     padding-right: 1px;
     margin-bottom: 30px;
+    .mob-br{
+      display: none;
+    }
 
   }
 }
@@ -64,7 +68,7 @@
       line-height: 22px;
       text-align: center;
       width: 52%;
-      margin: 48px auto 20px;
+      margin: 48px auto 44px;
     }
   }
 
@@ -75,7 +79,7 @@
   color: #333333;
   width: 42%;
   margin: 0 auto;
-  margin-top: 67px;
+  margin-top: 43px;
 }
 @media (max-width:1890px ) {
   .cards__blocks {
@@ -91,7 +95,8 @@
 
 @media (max-width: 1200px) {
   .cards{
-    height: 948px;
+    height: 861px;
+    margin-bottom: 89px;
   }
   .cards__top{
     .logo{
@@ -173,8 +178,17 @@
   }
   .cards{
     height: inherit;
+    margin-bottom: -27px;
+    .cards__top{
+      .desc{
+        .mob-br{
+          display: block;
+        }
+      }
+    }
   }
   .cards__bot{
     margin-top: 31px;
+    padding-bottom: 27px;
   }
 }
