@@ -63,6 +63,17 @@
     background: black;
     width: 100%;
     height: 220px;
+    .video-play{
+      position: relative;
+      top: 26%;
+      left: 47.5%;
+      width: 100px;
+      height: 100px;
+      padding-left: 10px;
+      padding-top: 3px;
+      background: url("../img/video-play.block.png") no-repeat;
+      background-size: 100% 100%;
+    }
   }
 }
 .about--info{
@@ -252,6 +263,12 @@
       width: 709px;
       height: 277px;
       margin: 0 auto;
+      .video-play{
+        top: 40%;
+        left: 47.3%;
+        width: 41px;
+        height: 40px;
+      }
     }
   }
   .about--info{
@@ -411,6 +428,12 @@
   .about--video{
    .video__block{
      width: 100%;
+     .video-play{
+       top: 22%;
+       left: 34.5%;
+       width: 100px;
+       height: 100px;
+     }
    }
     margin-top: -25px;
     height: 250px;
@@ -469,6 +492,20 @@
     grid-template-rows: 1fr;
     grid-row-gap: 38px;
     height: inherit;
+    .checked-boxes__item:nth-child(1){
+      width: 264px;
+
+    }
+    .checked-boxes__item:nth-child(2){
+      width: 286px;
+    }
+    .checked-boxes__item:nth-child(3){
+      width: 283px;
+    }
+    .checked-boxes__item:nth-child(4){
+      width: 290px;
+
+    }
     img{
       margin-left: -2px;
     }

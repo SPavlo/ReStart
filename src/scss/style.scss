@@ -6,6 +6,8 @@
 @import "net.scss";
 @import "solution.scss";
 @import "contacts.scss";
+@import "modal-buger.scss";
+
 
 * {
   margin: 0;
@@ -32,4 +34,7 @@ a{
 }
 body{
   font-family: "Roboto";
+}
+.lock{
+  overflow: hidden;
 }

@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/style.min.css">
     <title>Про компанію</title>
 </head>
-<body class="about--body">
+<body class="about--body body">
+@@include('_modal-burger.html')
 @@include('_header.html')
 <section class="mission">
     <div class="mission__title">
@@ -42,7 +43,11 @@
 
 </section>
 <section class="about--video">
-    <div class="video__block"></div>
+    <div class="video__block">
+        <div class="video-play">
+
+        </div>
+    </div>
 </section>
 <section class="about--info">
     <div class="doublelist">
@@ -116,5 +121,9 @@
     </div>
 </section>
 @@include('_footer.html')
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script src="js/burger.js"></script>
+
 </body>
 </html>

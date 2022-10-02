@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/style.min.css">
     <title>Restart</title>
 </head>
-<body>
+<body class="body">
+    @@include('_modal-burger.html')
     @@include('_header.html')
     @@include('_main.html')
     <section class="cards">
@@ -50,6 +51,11 @@
         </div>
     </section>
     @@include('_footer.html')
-<script src="js/script.min.js"></script>
+
+    <script src="js/script.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/slicer.js"></script>
+
 </body>
 </html>

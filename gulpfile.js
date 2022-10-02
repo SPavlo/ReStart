@@ -72,21 +72,10 @@ function css() {
         .pipe(dest(path.build.css))
         .pipe(browsersync.stream())
 }
-function js() {
-    return src(path.src.js)
-        .pipe(fileinclude())
-        .pipe(dest(path.build.js))
-        .pipe(uglify())
-        .pipe(rename({
-            extname:".min.js"
-        }))
-        .pipe(dest(path.build.js))
-        .pipe(browsersync.stream())
-}
+
 function watchFiles() {
     gulp.watch([path.watch.html],html)
     gulp.watch([path.watch.css],css)
-    gulp.watch([path.watch.js],js)
 }
 function images() {
     return src(path.src.img)
@@ -101,12 +90,11 @@ function fonts(){
             .pipe(ttf2woff2())
             .pipe(dest(path.build.fonts))
 }
-let build = gulp.series(gulp.parallel(js,css,html, images,fonts))
+let build = gulp.series(gulp.parallel(css,html, images,fonts))
 let watch = gulp.parallel(build,watchFiles,browserSync)
 
 exports.fonts = fonts
 exports.images = images
-exports.js = js
 exports.css = css
 exports.html = html
 exports.build = build
